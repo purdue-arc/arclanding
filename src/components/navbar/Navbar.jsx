@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
 import logo from "../../assets/logo.svg";
@@ -7,19 +8,19 @@ import logo from "../../assets/logo.svg";
 const Menu = () => (
   <>
     <p>
-      <a href="#home"> Home </a>
+      <Link to="/"> Home </Link>
     </p>
     <p>
-      <a href="#wgpt3"> What is GPT? </a>
+      <Link to="/wgpt3"> What is GPT? </Link>
     </p>
     <p>
-      <a href="#possibility"> Open AI </a>
+      <Link to="/possibility"> Open AI </Link>
     </p>
     <p>
-      <a href="#features"> Case studies </a>
+      <Link to="/features"> Case studies </Link>
     </p>
     <p>
-      <a href="#blog"> Library </a>
+      <Link to="/blog"> Library </Link>
     </p>
   </>
 );
