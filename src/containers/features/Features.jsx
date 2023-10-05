@@ -24,9 +24,9 @@ const Features = () => {
     <div className="gpt3__features section__padding" id="features">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">
-          The future with Autonomous Robotics is now. Let's make it happen together.
+          The future with Autonomous Robotics is now. Let's make it happen together. Learn more about our projects here!
         </h1>
-        <p>Learn More About Our Projects:</p>
+       
       </div>
       <div className="gpt3__features-container">
       {featuresData.map((item, index) =>(
