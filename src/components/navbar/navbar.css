@@ -78,8 +78,22 @@
   align-items: flex-end;
   flex-direction: column;
   text-align: end;
-
   background: var(--color-footer);
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 30% -140%, #042c54 15%, var(--color-bg) 80%, var(--color-footer) 180%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 30% -140%, #042c54 15%, var(--color-bg) 80%, var(--color-footer) 180%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 30% -140%, #042c54 15%, var(--color-bg) 80%, var(--color-footer) 180%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 30% -140%, #042c54 15%, var(--color-bg) 80%, var(--color-footer) 180%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 30% -140%, #042c54 15%, var(--color-bg) 80%, var(--color-footer) 180%);
+
   padding: 2rem;
   position: absolute;
   top: 40px;
