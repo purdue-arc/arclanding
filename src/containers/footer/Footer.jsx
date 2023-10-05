@@ -1,17 +1,22 @@
 import React from "react";
 import "./footer.css";
 import gpt3logo from "../../assets/logo.svg";
+import boilerlink from "../../assets/boilerlink.png"
+
 const Footer = () => {
   return (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">
-          Do you want to step in to the future before others
+          Join ARC below!
         </h1>
       </div>
 
       <div className="gpt3__footer-btn">
-        <p> Request Early Access</p>
+
+        <a href = "https://boilerlink.purdue.edu/organization/purduearc" target={"_blank"} rel={"noopener noreferrer"}>
+            <img src={boilerlink}/>
+        </a>
       </div>
 
       <div className="gpt3__footer-links">

@@ -21,10 +21,10 @@ const App = () => {
                     
                 </div>
                 <Routes>
-                    <Route path='/' element={ <Header/> }/>
-                    <Route path ='/wgpt3' element={ <WhatGPT3 />}/>
-                    <Route path='/features' element = { <Features/> }/>
-                    <Route path='/possibility' element= { <Possibility/> }/>
+                    <Route path='/home' element={ <Header/> }/>
+                    <Route path ='/about' element={ <WhatGPT3 />}/>
+                    <Route path='/sponsors' element = { <Features/> }/>
+                    <Route path='/projects' element= { <Possibility/> }/>
                     <Route path='/blog' element={ <Blog/> }/>
                 </Routes>
 

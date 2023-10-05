@@ -8,19 +8,19 @@ import logo from "../../assets/logo.svg";
 const Menu = () => (
   <>
     <p>
-      <Link to="/"> Home </Link>
+      <Link to="/home"> Home </Link>
     </p>
     <p>
-      <Link to="/wgpt3"> What is GPT? </Link>
+      <Link to="/about"> Who are we? </Link>
     </p>
     <p>
-      <Link to="/possibility"> Open AI </Link>
+      <Link to="/sponsors"> Sponsors </Link>
     </p>
     <p>
-      <Link to="/features"> Case studies </Link>
+      <Link to="/projects"> Projects </Link>
     </p>
     <p>
-      <Link to="/blog"> Library </Link>
+      <Link to="/blog"> Blog </Link>
     </p>
   </>
 );
