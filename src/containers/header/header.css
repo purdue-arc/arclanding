@@ -56,7 +56,7 @@
   flex: 0.6;
   width: 100%;
   min-height: 50px;
-  background: #040c18;
+  background: var(--color-bg);
   font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
@@ -65,7 +65,6 @@
   color: #ffffff;
   cursor: pointer;
   outline: none;
-  padding: 0;
   padding: 0 1rem;
   border: none;
   border-top-right-radius: 5px;
