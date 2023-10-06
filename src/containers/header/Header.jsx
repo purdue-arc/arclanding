@@ -13,20 +13,26 @@ const Header = () => {
           Welcome to Purdue ARC
         </h1>
         <p>
-          Mission:
+          Mission: (previous text) We are building autonomous systems
+          that advance the field of robotics. Our projects cover a wide
+          range of disciplines and tackle problems at the
+          forefront of research.
         </p>
 
         <div className="gpt3__header-content__input">
-          <button type="button"> Discord
-            <img src = {discord}/>
+          <button type="button">
+            <img src = {discord} style = {{width:80,height:80,marginBottom:-25}} alt={"Discord"}/>
+            <p>Discord</p>
           </button>
 
-          <button type="button"> Github
-            <img src = {github}/>
+          <button type="button">
+            <img src = {github} style = {{width:80,height:80,marginBottom:-25}} alt={"GitHub"}/>
+            <p>Github</p>
           </button>
 
-          <button type="button"> Notion
-            <img src = {notion}/>
+          <button type="button">
+            <img src = {notion} style = {{width:80,height:80,marginBottom:-25}} alt={"Notion"}/>
+            <p>Notion</p>
           </button>
         </div>
       </div>
