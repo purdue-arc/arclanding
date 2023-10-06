@@ -2,9 +2,9 @@ import React from "react";
 import "./header.css";
 import people from "../../assets/people.png";
 import ai from "../../assets/ai.png";
-import discord from "../../assets/discord.png"
-import github from "../../assets/github.png"
-import notion from "../../assets/notion.png"
+import discord from "../../assets/discord.svg"
+import github from "../../assets/github.svg"
+import notion from "../../assets/notion.svg"
 const Header = () => {
   return (
     <div className="gpt3__header section__padding" id="home">
@@ -21,17 +21,17 @@ const Header = () => {
 
         <div className="gpt3__header-content__input">
           <button type="button">
-            <img src = {discord} style = {{width:80,height:80,marginBottom:-25}} alt={"Discord"}/>
+            <img src = {discord} style = {{width:100,height:100,marginBottom:-10}} alt={"Discord"}/>
             <p>Discord</p>
           </button>
 
           <button type="button">
-            <img src = {github} style = {{width:80,height:80,marginBottom:-25}} alt={"GitHub"}/>
+            <img src = {github} style = {{width:100,height:100,marginBottom:-10}} alt={"GitHub"}/>
             <p>Github</p>
           </button>
 
           <button type="button">
-            <img src = {notion} style = {{width:80,height:80,marginBottom:-25}} alt={"Notion"}/>
+            <img src = {notion} style = {{width:100,height:100,marginBottom:-10}} alt={"Notion"}/>
             <p>Notion</p>
           </button>
         </div>
