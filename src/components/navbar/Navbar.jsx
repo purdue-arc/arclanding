@@ -14,13 +14,16 @@ const Menu = () => (
       <Link to="/about"> Who are we? </Link>
     </p>
     <p>
-      <Link to="/sponsors"> Sponsors </Link>
-    </p>
-    <p>
       <Link to="/projects"> Projects </Link>
     </p>
     <p>
+      <Link to="/sponsors"> Sponsors </Link>
+    </p>
+    <p>
       <Link to="/blog"> Blog </Link>
+    </p>
+    <p>
+      <Link to="/team"> Team </Link>
     </p>
   </>
 );

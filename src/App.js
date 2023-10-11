@@ -11,6 +11,7 @@ import {
 } from "./containers";
 
 import {CTA, Brand, Navbar} from "./components";
+import Team from "./containers/team/team";
 
 const App = () => {
     return (
@@ -23,9 +24,10 @@ const App = () => {
                 <Routes>
                     <Route path='/home' element={ <Header/> }/>
                     <Route path ='/about' element={ <WhatGPT3 />}/>
-                    <Route path='/sponsors' element = { <Features/> }/>
-                    <Route path='/projects' element= { <Possibility/> }/>
+                    <Route path='/projects' element = { <Features/> }/>
+                    <Route path='/sponsors' element= { <Possibility/> }/>
                     <Route path='/blog' element={ <Blog/> }/>
+                    <Route path='/team' element={<Team/>} />
                 </Routes>
 
                 <Footer/>
