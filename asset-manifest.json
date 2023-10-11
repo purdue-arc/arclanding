@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.bd5de06a.css",
+    "main.js": "/home/static/js/main.bb6a90c6.js",
+    "static/media/blog01.png": "/home/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/blog03.png": "/home/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/home/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/home/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/home/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/logo.svg": "/home/static/media/logo.d605392a3f23bc66caecdc4b4f35a8d5.svg",
+    "static/media/ai.png": "/home/static/media/ai.09805c025d2fc76a2f57.png",
+    "static/media/people.png": "/home/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/github.svg": "/home/static/media/github.6f2b9de2674f48d6f8aef8e85420ac2d.svg",
+    "static/media/notion.svg": "/home/static/media/notion.cbbd5557d5ab27b9ea8d323519560bd4.svg",
+    "static/media/discord.svg": "/home/static/media/discord.21652b035dc6bd217d1d6c8b580ea6e5.svg",
+    "index.html": "/home/index.html",
+    "main.bd5de06a.css.map": "/home/static/css/main.bd5de06a.css.map",
+    "main.bb6a90c6.js.map": "/home/static/js/main.bb6a90c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd5de06a.css",
+    "static/js/main.bb6a90c6.js"
+  ]
+}
