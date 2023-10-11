@@ -1,5 +1,5 @@
 {
-  "homepage": "https://purdue-arc.github.io/arclanding",
+  "homepage": "https://localhost:3000/home",
   "name": "testing",
   "version": "0.1.0",
   "private": true,
