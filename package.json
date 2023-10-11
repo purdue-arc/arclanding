@@ -1,5 +1,5 @@
 {
-  "homepage": "https://localhost:3000/home",
+  "homepage": "https://arclandingtemp.vercel.app/home",
   "name": "testing",
   "version": "0.1.0",
   "private": true,
