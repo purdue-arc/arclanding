@@ -22,7 +22,7 @@ const App = () => {
                     
                 </div>
                 <Routes>
-                    <Route path='/home' element={ <Header/> }/>
+                    <Route path='/' element={ <Header/> }/>
                     <Route path ='/about' element={ <WhatGPT3 />}/>
                     <Route path='/projects' element = { <Features/> }/>
                     <Route path='/sponsors' element= { <Possibility/> }/>
