@@ -8,7 +8,7 @@ import logo from "../../assets/logo.svg";
 const Menu = () => (
   <>
     <p>
-      <Link to="/home"> Home </Link>
+      <Link to="/"> Home </Link>
     </p>
     <p>
       <Link to="/about"> Who are we? </Link>
