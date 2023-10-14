@@ -23,7 +23,7 @@ const WhatGPT3 = () => {
           text="Description "
         />
         <Feature
-          title="AI Algorithms"
+          title="RISE"
           text="Description"
         />
         <Feature
