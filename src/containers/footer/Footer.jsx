@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="gpt3__footer-btn">
 
         <a href = "https://boilerlink.purdue.edu/organization/purduearc" target={"_blank"} rel={"noopener noreferrer"}>
-            <img src={boilerlink}/>
+            <img src={boilerlink} alt="boilerlink"/>
         </a>
       </div>
 
