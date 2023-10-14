@@ -44,12 +44,14 @@
 }
 
 .team__member-name {
+  font-family: "Manrope", sans-serif;;
   font-size: 18px;
   font-weight: 600;
   margin: 10px;
 }
 
 .team__member-role {
+  font-family: "Manrope", sans-serif;
   font-size: 14px;
   color: #666; /* Role text color */
 }

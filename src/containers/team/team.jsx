@@ -1,10 +1,11 @@
 import React from "react";
 import "./team.css";
+import arcicon from "../../assets/arcicon.png"
 
 const Team = () => {
     const teamMembers = [
         { role: "President", name: "Haddy Alchaer", division: "Executive Board" },
-        { role: "Vice President", name: "Revanth Senthilkumaran", division: "Executive Board" },
+        { role: "Vice President", name: "Revanth Senthilkumaran", division: "Executive Board"},
         { role: "Operations Director", name: "Mouli Sangita", division: "Executive Board" },
         { role: "Treasurer", name: "Aytaj Aslanli", division: "Executive Board" },
         { role: "Project Lead", name: "Revanth Senthilkumaran", division: "Project Leads" },
@@ -26,8 +27,8 @@ const Team = () => {
             {teamMembers.map((member, index) => (
                 <div className="team__member" key={index}>
                     <div className="team__member-image">
-                        {/* Add your image source here */}
-                        <img src={`image${index + 1}.jpg`} alt={member.name} />
+
+                        <img src={arcicon} alt={member.name} />
                     </div>
                     <div className="team__member-name">{member.name}</div>
                     <div className="team__member-role">{member.role}</div>

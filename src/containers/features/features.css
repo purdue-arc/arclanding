@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  
+
 }
 
 .gpt3__features-heading {
@@ -20,17 +20,17 @@
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 800;
-  font-size: 36px; 
-  line-height: 48px; 
+  font-size: 36px;
+  line-height: 48px;
   color: #0f3a91;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .gpt3__features-heading p {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 30px;
   color: #0f3a91;
   margin-top: 2rem;
