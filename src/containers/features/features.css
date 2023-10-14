@@ -13,8 +13,7 @@
   align-items: flex-start;
   flex-direction: column;
   text-align: left;
-  margin-right: 5rem;
-  padding-left: 20px; /* Added */
+  margin-right: 2rem;
 }
 
 .gpt3__features-heading h1 {
