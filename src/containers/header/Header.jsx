@@ -5,6 +5,7 @@ import ai from "../../assets/ai.png";
 import discord from "../../assets/discord.png"
 import github from "../../assets/github.png"
 import notion from "../../assets/notion.png"
+import instagram from "../../assets/instagram.png"
 const Header = () => {
   return (
       <div className="gpt3__header section__padding" id="home">
@@ -33,9 +34,9 @@ const Header = () => {
               </button>
             </a>
 
-            <a href="https://example.com/link1" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/purdue.arc/" target="_blank" rel="noopener noreferrer">
               <button type="button">
-                <img src={notion} alt="Notion" />
+                <img src={instagram} alt="Notion" />
               </button>
             </a>
 
