@@ -19,8 +19,8 @@ const featuresData = [
 {
     title: "Dog Copter",
     text: <a>We're building a groundbreaking fusion of a drone and a robotic dog, featuring autonomous navigation and camera/lidar vision.
-      Inspired by innovations in robotic dogs (Boston Dynamics' Spot), flying cars, and drones, our goal is to create a versatile robot 
-      capable of seamless transitions, effortlessly traversing rocky land and taking flight in the air, primarily for exploration purposes. 
+      Inspired by innovations in robotic dogs (Boston Dynamics' Spot), flying cars, and drones, our goal is to create a versatile robot
+      capable of seamless transitions, effortlessly traversing rocky land and taking flight in the air, primarily for exploration purposes.
       Join us as we push the boundaries of robotics to create the marvel that is DogCopter.</a>
 },
 {
@@ -42,19 +42,23 @@ const featuresData = [
 ];
 const Features = () => {
   return (
+    <div>
+        <div className="gpt3__features-heading">
+            <h1 className="gradient__text">
+                The future with Autonomous Robotics is now. Let's make it happen together. Learn more about our projects here!
+            </h1>
 
+        </div>
     <div className="gpt3__features section__padding" id="features">
-      <div className="gpt3__features-heading">
-          <h1 className="gradient__text">
-              The future with Autonomous Robotics is now. Let's make it happen together. Learn more about our projects here!
-          </h1>
-      </div>
+
       <div className="gpt3__features-container">
       {featuresData.map((item, index) =>(
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}
     </div>
     </div>
+    </div>
+        </div>
   );
 };
 
