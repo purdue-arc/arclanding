@@ -1,9 +1,7 @@
 .gpt3__features {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-
 }
 
 .gpt3__features-heading {
@@ -12,7 +10,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   margin-right: 2rem;
 }
 
@@ -26,39 +24,51 @@
   padding: 40px 100px 0 100px;
 }
 
-.gpt3__features-heading p {
-  font-family: var(--font-family);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
-  color: #0f3a91;
-  margin-top: 2rem;
-}
-
 .gpt3__features-container {
   flex: 0.5;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: column; /* Change flex-direction to column on smaller screens */
 }
 
+.gpt3__features-container > .Feature {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; /* Fill available width */
+  margin-bottom: 2rem; /* Add spacing between items */
+}
 
+.gpt3__features-container .gpt3__features-container__feature-title h1 {
+  font-size: 18px; /* Adjust font size for smaller screens */
+  line-height: 24px;
+}
+
+.gpt3__features-container .gpt3__features-container_feature-text p {
+  font-size: 14px; /* Adjust font size for smaller screens */
+  line-height: 24px;
+}
 
 @media screen and (max-width: 990px) {
-  .gpt3__features {
-    flex-direction: column;
-  }
-
-  .gpt3__features-heading{
+  .gpt3__features-heading {
     margin: 0 0 2rem 0;
   }
 }
 
-
 @media screen and (max-width: 550px) {
-    .gpt3__features-heading h1 {
-      font-size: 28px;
-      line-height: 38px;
-    }
+  .gpt3__features-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
   }
+
+  .gpt3__features-container .gpt3__features-container__feature-title h1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .gpt3__features-container .gpt3__features-container_feature-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .gpt3__features-container .gpt3__features-container__feature {
+    margin: 1rem 0;
+  }
+}

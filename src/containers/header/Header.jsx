@@ -6,6 +6,7 @@ import discord from "../../assets/discord.png"
 import github from "../../assets/github.png"
 import notion from "../../assets/notion.png"
 import instagram from "../../assets/instagram.png"
+import arcdemo from "../../assets/arcDemo.mp4"
 const Header = () => {
   return (
       <div className="gpt3__header section__padding" id="home">
@@ -44,7 +45,7 @@ const Header = () => {
         </div>
 
         <div className="gpt3__header-image">
-          <img src={ai} alt="ai" />
+          <video src={arcdemo} alt="ARC Demo Video" autoPlay muted loop controls={false} onContextMenu={(e) => e.preventDefault()} />
         </div>
       </div>
   );

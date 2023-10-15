@@ -96,10 +96,17 @@
 }
 
 .gpt3__header-image {
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.gpt3__header-image video {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px; /* You can adjust the value to control the roundness of the edges */
 }
 
 .gpt3__header-image img {
