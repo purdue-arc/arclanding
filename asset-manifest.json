@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.bd5de06a.css",
-    "main.js": "/home/static/js/main.bb6a90c6.js",
-    "static/media/blog01.png": "/home/static/media/blog01.cefc0932eae0d33a0342.png",
-    "static/media/blog03.png": "/home/static/media/blog03.d922323861096f25274f.png",
-    "static/media/blog04.png": "/home/static/media/blog04.742c1357e7b6c11078e6.png",
-    "static/media/blog05.png": "/home/static/media/blog05.bfaa1c1e3851158e0e1f.png",
-    "static/media/blog02.png": "/home/static/media/blog02.ab0eb367561796e91532.png",
-    "static/media/logo.svg": "/home/static/media/logo.d605392a3f23bc66caecdc4b4f35a8d5.svg",
-    "static/media/ai.png": "/home/static/media/ai.09805c025d2fc76a2f57.png",
-    "static/media/people.png": "/home/static/media/people.5cd2d6fbcd48bd63f106.png",
-    "static/media/github.svg": "/home/static/media/github.6f2b9de2674f48d6f8aef8e85420ac2d.svg",
-    "static/media/notion.svg": "/home/static/media/notion.cbbd5557d5ab27b9ea8d323519560bd4.svg",
-    "static/media/discord.svg": "/home/static/media/discord.21652b035dc6bd217d1d6c8b580ea6e5.svg",
-    "index.html": "/home/index.html",
-    "main.bd5de06a.css.map": "/home/static/css/main.bd5de06a.css.map",
-    "main.bb6a90c6.js.map": "/home/static/js/main.bb6a90c6.js.map"
+    "main.css": "/static/css/main.239fa63e.css",
+    "main.js": "/static/js/main.3e95b3cc.js",
+    "static/media/arcDemo.mp4": "/static/media/arcDemo.2e3cfd9272048194e89e.mp4",
+    "static/media/blog01.png": "/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/blog03.png": "/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/arcicon.png": "/static/media/arcicon.ca62139903ace522a81e.png",
+    "static/media/logo.svg": "/static/media/logo.07e3f71a6a1d9c2a5ffaee93966ba6f5.svg",
+    "static/media/instagram.png": "/static/media/instagram.de648ccdbd2e455e6249.png",
+    "static/media/ai.png": "/static/media/ai.09805c025d2fc76a2f57.png",
+    "static/media/github.png": "/static/media/github.7acde23236a5c7507398.png",
+    "static/media/people.png": "/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/index.html",
+    "main.239fa63e.css.map": "/static/css/main.239fa63e.css.map",
+    "main.3e95b3cc.js.map": "/static/js/main.3e95b3cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd5de06a.css",
-    "static/js/main.bb6a90c6.js"
+    "static/css/main.239fa63e.css",
+    "static/js/main.3e95b3cc.js"
   ]
 }
