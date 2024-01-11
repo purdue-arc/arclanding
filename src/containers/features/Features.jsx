@@ -37,6 +37,11 @@ const featuresData = [
             popular video game Rocket League, our goal is to create a dynamic and interactive demo, pitting human-controlled cars against autonomous
             ones. As we progress, we envision launching a multi-university competition, inviting teams to showcase their own intelligent strategies
             in a thrilling autonomous soccer tournament. Be a part of this cutting-edge initiative and help shape the future of autonomous sports!</a>
+    },
+
+    {
+        title: "Sphero Swarm",
+        text: <a>Our project revolves around the use of Sphero balls, compact spherical robots capable of precise movement and coordination, to form dynamic representations of molecules. By orchestrating the controlled movement of these Sphero robots, we will bring molecular structures to life, enabling visitors to gain a deeper understanding of chemistry in an engaging and interactive way.</a>
     }
 
 ];
