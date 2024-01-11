@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.239fa63e.css",
+    "main.js": "/static/js/main.2ec3e789.js",
+    "static/media/arcDemo.mp4": "/static/media/arcDemo.2e3cfd9272048194e89e.mp4",
+    "static/media/blog01.png": "/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/blog03.png": "/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/arcicon.png": "/static/media/arcicon.ca62139903ace522a81e.png",
+    "static/media/logo.svg": "/static/media/logo.07e3f71a6a1d9c2a5ffaee93966ba6f5.svg",
+    "static/media/instagram.png": "/static/media/instagram.de648ccdbd2e455e6249.png",
+    "static/media/ai.png": "/static/media/ai.09805c025d2fc76a2f57.png",
+    "static/media/github.png": "/static/media/github.7acde23236a5c7507398.png",
+    "static/media/people.png": "/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/index.html",
+    "main.239fa63e.css.map": "/static/css/main.239fa63e.css.map",
+    "main.2ec3e789.js.map": "/static/js/main.2ec3e789.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.239fa63e.css",
+    "static/js/main.2ec3e789.js"
+  ]
+}
