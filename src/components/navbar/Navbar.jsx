@@ -6,32 +6,36 @@ import logo from "../../assets/logo.svg";
 // BEM -> BLOCK ELEMENT MODIFIER
 
 const Menu = () => (
-  <>
-    <p>
-      <Link to="/"> Home </Link>
-    </p>
-    <p>
-      <Link to="/about"> Who are we? </Link>
-    </p>
-    <p>
-      <Link to="/projects"> Projects </Link>
-    </p>
-      {/* <p>
+    <>
+        <p>
+            <Link to="/"> Home </Link>
+        </p>
+        <p>
+            <Link to="/about"> Who are we? </Link>
+        </p>
+        <p>
+            <Link to="/projects"> Projects </Link>
+        </p>
+        {/* <p>
       <Link to="/sponsors"> Sponsors </Link>
     </p>
     <p>
       <Link to="/blog"> Blog </Link>
     </p> */}
-    <p>
-      <Link to="/team"> Team </Link>
-    </p>
-  </>
+        <p>
+            <Link to="/team"> Team </Link>
+        </p>
+        <p>
+            <a href="https://ivory-sale-974.notion.site/Projects-ac9a60e4ba2844b1a9c315ead69c434b" target="_blank"> Wiki </a>
+        </p>
+
+    </>
 );
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
-  return (
-    <div className="gpt3__navbar">
+    const [toggleMenu, setToggleMenu] = useState(false);
+    return (
+        <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
           <a href="/">
