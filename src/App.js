@@ -6,7 +6,7 @@ import {
     Features,
     Header,
     Possibility,
-    WhatGPT3,
+    Introduction,
     Footer
 } from "./containers";
 
@@ -23,7 +23,7 @@ const App = () => {
                 </div>
                 <Routes>
                     <Route path='/' element={ <Header/> }/>
-                    <Route path ='/about' element={ <WhatGPT3 />}/>
+                    <Route path ='/about' element={ <Introduction />}/>
                     <Route path='/projects' element = { <Features/> }/>
                     <Route path='/sponsors' element= { <Possibility/> }/>
                     <Route path='/blog' element={ <Blog/> }/>

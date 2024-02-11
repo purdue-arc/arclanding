@@ -5,13 +5,13 @@ import { blog01, blog02, blog03, blog04, blog05 } from "./imports";
 
 const Blog = () => {
   return (
-    <div className="gpt3__blog section__padding" id="blog">
-      <div className="gpt3__blog-heading">
+    <div className="blog section__padding" id="blog">
+      <div className="blog-heading">
         <h1 className="gradient__text">
           As a tech involved organization, ARC reports on everything...
         </h1>
-        <div className="gpt3__blog-container">
-          <div className="gpt3__blog-container_groupA">
+        <div className="blog-container">
+          <div className="blog-container_groupA">
             <Article
               imgUrl={blog01}
               date="Sept 26, 2025"
@@ -19,7 +19,7 @@ const Blog = () => {
             />
           </div>
 
-          <div className="gpt3__blog-container_groupB">
+          <div className="blog-container_groupB">
             <Article
               imgUrl={blog02}
               date="Sept 26, 2025"

@@ -9,8 +9,8 @@ import instagram from "../../assets/instagram.png"
 import arcdemo from "../../assets/arcDemo.mp4"
 const Header = () => {
   return (
-      <div className="gpt3__header section__padding" id="home">
-        <div className="gpt3__header-content">
+      <div className="header section__padding" id="home">
+        <div className="header-content">
           <h1 className="gradient__text">
             Welcome to Purdue ARC
           </h1>
@@ -21,7 +21,7 @@ const Header = () => {
             Links below:
           </p>
 
-          <div className="gpt3__header-content__input">
+          <div className="header-content__input">
             <a href="https://discord.gg/feyyGCA6QU" target="_blank" rel="noopener noreferrer">
               <button type="button">
                 <img src={discord} alt="Discord" />
@@ -44,7 +44,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="gpt3__header-image">
+        <div className="header-image">
           <video src={arcdemo} alt="ARC Demo Video" autoPlay muted loop controls={false} onContextMenu={(e) => e.preventDefault()} />
         </div>
       </div>

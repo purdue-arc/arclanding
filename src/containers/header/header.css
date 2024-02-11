@@ -1,8 +1,8 @@
-.gpt3__header {
+.header {
   display: flex;
 }
 
-.gpt3__header-content {
+.header-content {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
   margin-right: 5rem;
 }
 
-.gpt3__header-content h1 {
+.header-content h1 {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 62px;
@@ -21,7 +21,7 @@
   letter-spacing: -0.04em;
 }
 
-.gpt3__header-content p {
+.header-content p {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: normal;
@@ -31,13 +31,13 @@
   padding: 1rem 0;
 }
 
-.gpt3__header-content__input {
+.header-content__input {
   width: 100%;
   margin: 2rem 0 1rem;
   display: flex;
 }
 
-.gpt3__header-content__input input {
+.header-content__input input {
   flex: 2;
   width: 100%;
   min-height: 50px;
@@ -52,7 +52,7 @@
   color: #fff;
 }
 
-.gpt3__header-content__input button {
+.header-content__input button {
   flex: 0.6;
   width: 100%;
   min-height: 50px;
@@ -71,7 +71,7 @@
   border-bottom-right-radius: 5px;
 }
 
-.gpt3__header-content__people {
+.header-content__people {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -79,12 +79,12 @@
   margin-top: 1rem;
 }
 
-.gpt3__header-content__people img {
+.header-content__people img {
   width: 181.79px;
   height: 38px;
 }
 
-.gpt3__header-content__people p {
+.header-content__people p {
   margin: 0 0 0 1rem;
   font-family: var(--font-family);
   font-weight: 500;
@@ -95,13 +95,13 @@
   text-align: center;
 }
 
-.gpt3__header-image {
+.header-image {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.gpt3__header-image video {
+.header-image video {
   max-width: 100%;
   max-height: 100%;
   width: auto;
@@ -109,57 +109,57 @@
   border-radius: 10px; /* You can adjust the value to control the roundness of the edges */
 }
 
-.gpt3__header-image img {
+.header-image img {
   width: 100%;
   height: 100%;
 }
 
 @media screen and (max-width: 1050px) {
-  .gpt3__header {
+  .header {
     flex-direction: column;
   }
-  .gpt3__header-content {
+  .header-content {
     margin: 0 0 3rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .gpt3__header h1 {
+  .header h1 {
     font-size: 48px;
     line-height: 60px;
   }
-  .gpt3__header p {
+  .header p {
     font-size: 16px;
     line-height: 24px;
   }
 
-  .gpt3__header-content__people {
+  .header-content__people {
     flex-direction: column;
   }
 
-  .gpt3__header-content__people p {
+  .header-content__people p {
     margin: 0;
   }
 
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .header-content__input input,
+  .header-content__input button {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
 @media screen and (max-width: 490px) {
-  .gpt3__header h1 {
+  .header h1 {
     font-size:  48px;
     line-height: 62px;
   }
-  .gpt3__header p {
+  .header p {
     font-size: 14px;
     line-height: 28px;
   }
 
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .header-content__input input,
+  .header-content__input button {
     font-size: 15px;
     line-height: 16px;
   }
@@ -168,17 +168,17 @@
 
 
 @media screen and (max-width: 380px) {
-  .gpt3__header h1 {
+  .header h1 {
   font-size: 48px;
     line-height: 62px;
   }
-  .gpt3__header p {
+  .header p {
     font-size: 14px;
     line-height: 28px;
   }
 
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .header-content__input input,
+  .header-content__input button {
     font-size: 15px;
     line-height: 16px;
   }

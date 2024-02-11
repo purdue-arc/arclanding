@@ -1,22 +1,22 @@
 import React from "react";
 import { Feature } from "../../components";
-import "./whatGPT3.css";
-const WhatGPT3 = () => {
+import "./introduction.css";
+const Introduction = () => {
   return (
-    <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
-      <div className="gpt3__whatgpt3-feature">
+    <div className="introduction section__margin" id="wgpt3">
+      <div className="feature">
         <Feature
           title="Who are we?"
           text="We are the Autonomous Robotics Club of Purdue (ARC)."
         />
       </div>
 
-      <div className="gpt3__whatgpt3-heading">
+      <div className="heading">
         <h1 className="gradient__text">
         Turn your imagination into reality
         </h1>
       </div>
-      <div className="gpt3__whatgpt3-container">
+      <div className="container">
         <Feature
           title="Autonomous Robots"
           text="At ARC, we pioneer the development of cutting-edge autonomous robots, merging innovation and technology to create intelligent machines capable of operating independently in dynamic environments. "
@@ -34,4 +34,4 @@ const WhatGPT3 = () => {
   );
 };
 
-export default WhatGPT3;
+export default Introduction;
