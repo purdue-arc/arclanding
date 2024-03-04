@@ -14,6 +14,7 @@ const Team = () => {
         { role: "Rocket League Lead", name: "Campbell McClendon", division: "Project Leads" },
         { role: "Wizard's Chess Lead", name: "Sam Graham", division: "Project Leads" },
         { role: "Sphero Swarm Lead", name: "Aarav Garg", division: "Project Leads" },
+        { role: "Astrobotics Lead", name: "Elizabeth Kung", division: "Project Leads" },
         { role: "Events Coordinator", name: "Nithin Anand", division: "Operations Leads" },
         { role: "Development Lead", name: "Edgar Babajanyan", division: "Operations Leads" },
         { role: "Marketing Lead", name: "Yashvi Agrawal", division: "Operations Leads" },
