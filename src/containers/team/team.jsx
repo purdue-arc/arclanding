@@ -16,10 +16,9 @@ const Team = () => {
         { role: "Project Lead", name: "Aarav Garg", division: "Project Leads" },
         { role: "Operations Lead", name: "Nithin Anand", division: "Operations Leads" },
         { role: "Operations Lead", name: "Edgar Babajanyan", division: "Operations Leads" },
-        { role: "Operations Lead", name: "Nikhil Irukula", division: "Operations Leads" },
         { role: "Operations Lead", name: "Yashvi Agrawal", division: "Operations Leads" },
         { role: "Operations Lead", name: "Pranav Krishnamoorthy", division: "Operations Leads" },
-        { role: "RISE Lead", name: "Vijay Muthukumar", division: "RISE Lead" },
+        { roles: ["Product & Design Lead", "RISE Lead"], name: "Vijay Muthukumar", division: "RISE Lead" },
     ];
 
     return (
