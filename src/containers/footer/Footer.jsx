@@ -7,16 +7,9 @@ const Footer = () => {
   return (
     <div className="footer section__padding">
       <div className="footer-heading">
-        <h1 className="gradient__text">
-          Join ARC below!
-        </h1>
       </div>
 
       <div className="footer-btn">
-
-        <a href = "https://boilerlink.purdue.edu/organization/purduearc" target={"_blank"} rel={"noopener noreferrer"}>
-            <img src={boilerlink} alt="boilerlink"/>
-        </a>
       </div>
 
       <div className="footer-links">
