@@ -5,10 +5,10 @@ import arcicon from "../../assets/arcicon.png"
 const Team = () => {
     const teamMembers = [
         { role: "President", name: "Haddy Alchaer", division: "Executive Board" },
-        {roles: ["President","Project Lead" ], name: "Revanth Senthilkumaran", division: "Executive Board"},
+        { roles: ["Vice President","Piano Hand Lead" ], name: "Revanth Senthilkumaran", division: "Executive Board"},
         { role: "Operations Director", name: "Mouli Sangita", division: "Executive Board" },
         { role: "Treasurer", name: "Tamara Itani", division: "Executive Board" },
-        { role: "Piano Hand Lead", name: "Revanth Senthilkumaran", division: "Project Leads" },
+        // { role: "Piano Hand Lead", name: "Revanth Senthilkumaran", division: "Project Leads" },
         { role: "Drone Delivery Lead", name: "Josh Mansky", division: "Project Leads" },
         { role: "Dog Copter Lead", name: "Ryan Ting", division: "Project Leads" },
         { role: "Rocket League Lead", name: "Campbell McClendon", division: "Project Leads" },
